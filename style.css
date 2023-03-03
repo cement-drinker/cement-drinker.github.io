@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
+@media (pointer: coarse) {
+	h1
+	{
+		width: 80%;
+	}
+
+	p
+	{
+		width: 80%;
+	}
+}
+
+@media (pointer: fine) {
+	h1
+	{
+		width: 50%;
+	}
+
+	p
+	{
+		width: 50%;
+	}
+}
+
 body
 {
 	background: #faf4ed;
@@ -10,7 +34,6 @@ h1
 {
 	border: 5px dashed #575279;
 	padding: 4px;
-	width: 50%;
 	margin: 2% auto 0;
 	font-family: 'IBM Plex Mono';
 	font-style: italic;
@@ -29,7 +52,6 @@ a
 p
 {
 	margin: 2% auto;
-	width: 50%;
 	font-family: 'IBM Plex Sans';
 	font-size: 20px;
 	color: #575279;
